@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import FirebaseContext from "../../../utils/FirebaseContext";
-import FirebaseService from "../../../services/FirebaseService";
+import FirebaseService from "../../../services/StudentFirebaseService";
 
 
 const EditStudentPage = () =>

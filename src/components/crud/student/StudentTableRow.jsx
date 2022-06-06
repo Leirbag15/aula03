@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import FirebaseService from "../../../services/FirebaseService";
+import FirebaseService from "../../../services/StudentFirebaseService";
 
 const StudentTableRow = (props) => {
     const {_id,name,course,ira} = props.student

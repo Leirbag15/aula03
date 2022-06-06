@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import ProfessorTableRow from "./ProfessorTableRow";
 import FirebaseContext from "../../../utils/FirebaseContext";
-import FirebaseService from "../../../services/FirebaseService";
+import FirebaseService from "../../../services/ProfessorFirebaseService";
 
 const ListProfessorPage = () => 
     <FirebaseContext.Consumer>

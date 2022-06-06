@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 import FirebaseContext from "../../../utils/FirebaseContext";
-import FirebaseService from "../../../services/FirebaseService";
+import FirebaseService from "../../../services/ProfessorFirebaseService";
 
 const CreateProfessorPage = () => 
     <FirebaseContext.Consumer>
