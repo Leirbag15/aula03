@@ -1,11 +1,11 @@
 import {initializeApp} from "firebase/app"
 import {getFirestore} from 'firebase/firestore'
 
-import {firebaseConfig} from '../keys/firebase_key'
+import {key} from '../keys/firebase'
 
 export default class Firebase{
     constructor(){
-        this.app = initializeApp(firebaseConfig)
+        this.app = initializeApp(key)
     }
 
     getFirestoreDb(){
